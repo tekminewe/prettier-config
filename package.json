@@ -1,8 +1,8 @@
 {
   "name": "@tekminewe/prettier-config",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "",
-  "main": "index.js",
+  "main": "index.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +14,11 @@
   "license": "ISC",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "prettier": "^2.8.3"
+  },
+  "peerdependencies": {
+    "prettier": "^2.8.3"
   }
 }
